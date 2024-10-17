@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --color-gradient-btn: linear-gradient(316deg, #10630E 0%, #50B115 100%);
+    --text-dark: #212529;
+    --text-hover: #10630e;
+}
+
+a {
+    color: var(--text-dark) !important;
+    text-decoration: none;
+}
+
+a:not(.btn):hover {
+    color: var(--text-hover) !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(198, 237, 202) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 1px solid #f3ffed;
+    padding: 1.5rem;
+}
+
+.form-control:focus {
+    border-color: #63c553 !important;
+    box-shadow: 0 0 0 .25rem rgb(105 193 73 / 25%) !important;
+}
+
+.navbar .container {
+    background: rgb(255 255 255 / 75%);
+    box-shadow: 0 9px 23px 0 #0218021c;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 8px;
+    border: 1px solid #ffffff40;
+    margin: 20px 12px 0px;
+    padding: 0 16px;
+    z-index: 1;
+    min-height: 80px;
+    max-width: 1300px;
+}
+
+.navbar a.btn {
+    border-radius: 6px 6px 6px 6px;
+    border: 2px none transparent;
+    box-shadow: 0px 0px 0px -7px rgba(255, 255, 255, 0);
+    padding: 10px 35px 10px 35px;
+    background: var(--color-gradient-btn);
+    transition: .3s all !important;
+}
+div#navbarSupportedContent {
+    padding-bottom: 1rem;
+}
