@@ -1,10 +1,9 @@
 # Pay2S - Payment Platform
-
-This repository provides example code to integrate **Pay2S** as a payment method for:
-- **Online Payment**: Desktop and Mobile websites.
-
+This repository provides example code for integrating Pay2S payment methods into websites/apps for online transactions and purchases, tracking bank account balance variables and e-wallets
+- [Homepage](https://pay2s.vn)
+  
 ## Documentation  
-For the complete API reference and integration guide, visit the [Pay2S Developer Documentation](https://docs.pay2s.vn/#/).
+For the complete API reference and integration guide, visit the [Pay2S Developer Documentation](https://docs.pay2s.vn/).
 
 ## Acknowledgments  
 
